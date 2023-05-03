@@ -2,11 +2,7 @@ import React from 'react';
 import { TouchableOpacity, Image, View, Text, StyleSheet } from 'react-native';
 
 export  function UserViewScreen({navigation}) {
-  const [isLoading, setIsLoading] = useState(false);
-
-  const handlePress = () => {
-    setIsLoading(true);
-  }
+  
   return (
 
     <View style={styles.container}>
